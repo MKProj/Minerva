@@ -1,7 +1,7 @@
 {
   "name": "minerva",
   "productName": "Minerva",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "Read books from MKProjects",
   "main": "src/index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "make": "electron-forge make",
     "publish": "electron-forge publish",
     "lint": "echo \"No linting configured\"",
-    "deb64" : "electron-installer-debian --src out/minerva-linux-x64/ --dest out/installers/ --arch amd64",
+    "deb64": "electron-installer-debian --src out/minerva-linux-x64/ --dest out/installers/ --arch amd64",
     "linux": "electron-packager . minerva --platform linux --arch x64 --out out/ --overwrite"
   },
   "keywords": [],
@@ -67,7 +67,7 @@
     "@electron-forge/maker-squirrel": "^6.0.0-beta.61",
     "@electron-forge/maker-zip": "^6.0.0-beta.61",
     "electron": "14.0.1",
-    "electron-packager": "^15.4.0",
-    "electron-installer-debian":"^0.6.0"
+    "electron-installer-debian": "^0.6.0",
+    "electron-packager": "^15.4.0"
   }
 }

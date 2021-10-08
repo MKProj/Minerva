@@ -88,6 +88,20 @@ const menu = new Menu()
     },
     {type: 'separator'},
         {
+            label: 'Rust Basics',
+            submenu: [
+              {
+                label: 'Web',
+                click:() => {mainWindow.loadFile("./src/web/rust_basic/index.html")}
+              },
+              {
+                label: 'PDF',
+                click: () => {mainWindow.loadFile("./src/pdf/Rust-Basics.pdf")}
+              }
+            ]
+        },
+    {type: 'separator'},
+        {
             label: 'Quit', 
             role: 'quit', 
             accelerator: 'Ctrl+Q', 
